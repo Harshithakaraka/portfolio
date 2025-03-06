@@ -1,0 +1,512 @@
+
+<html lang="en">
+  <style>
+    .custom-img {
+      width: 450px;
+      height: 550px;
+    }
+  </style>
+<head>
+    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+</head>
+
+<body class="backg">
+  <div class="pagess tab-content" id="nav-tabContent">
+
+    <div class="page tab-pane fade active show  overflow-hidden" id="nav-home" role="tabpanel"
+      aria-labelledby="nav-home-tab">
+      <div class="side-angle position-absolute z-n1 d-none d-md-block"></div>
+      <div class="row h-100 align-items-center">
+        <div class="col profile-info d-flex flex-column justify-content-center align-items-center gap-3">
+          <div class="display-5 d-none d-md-block color fw-bolder">- I`M Karaka Harshitha</div>
+          <div class="display-5 fw-lighter wht"><p>I am a <span id="role"></span></p></div>
+          <p style="width: 50%;font-weight: 300;line-height: 30px;font-size: 1.2vw;" class="wht">
+            Persuing My B.Tech Degree @ K L University<br>
+            Experienced in developing and deploying full-stack-applications<br></p>
+            <button class="button px-4 rounded-pill bg-transparent" data-bs-toggle="modal"
+            data-bs-target="#exampleModal4"><span class="b-span wht">MORE ABOUT ME</span></button>
+        </div>
+        <div class="col-12 profile-pic col-md-4 mb-5 mb-md-0">
+          <div class="prof-pic d-flex align-items-center justify-content-center h-100 w-100">
+            <img src="./images/tp.jpg" alt="" class="custom-img" class="img-fluid h-100 w-100 rounded">
+          </div>
+        </div>
+      </div>
+
+      <div class="modal modal-lg fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-dark color">
+              <h1 class="modal-title fs-1 text-center m-auto" id="exampleModalLabel">ABOUT ME..</h1>
+              <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-dark wht">
+              <div class="prof-body row w-75 mx-auto mt-4 wow">
+                <div class="col p-table">
+                  <h3 class="wht d-inline">PERSONAL INFOS</h3>
+                  <table class="table table-responsive h-100 fw-light">
+                    <tr>
+                      <td><span style="color: gray;">First Name:</span><span class="wht">Karaka</span></td>
+                      <td><span style="color: gray;">Last Name:</span><span class="wht"> Harshitha</span></td>
+                    </tr>
+                    <tr>
+                      <td><span style="color: gray;">Age:</span><span class="wht"> 21 Years</span></td>
+                      <td><span style="color: gray;">Nationality:</span><span class="wht"> Indian</span></td>
+                    </tr>
+                    <tr>
+                      <td><span style="color: gray;">Intern:</span><span class="text-success"> Available soon</span>
+                      </td>
+                      <td><span style="color: gray;">Address:</span><span class="wht"> Vasavi Nagar, Guntur, Andhra Pradesh</span></td>
+                    </tr>
+                    <tr>
+                      <td><span style="color: gray;">Phone:</span><span class="wht"> +916300977375</span></td>
+                      <td><span style="color: gray;">Email:</span><span class="wht"> 2100031364cseh@gmail.com</span></td>
+                    </tr>
+                    <tr>
+                      <td><span style="color: gray;">Calls:</span><span class="wht"> soon</span></td>
+                      <td><span style="color: gray;">Languages:</span><span class="wht"> English,Hindi,Telugu</span></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2"><a href=""></a></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="page tab-pane fade  overflow-scroll overflow-x-hidden p-0" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+      <div class="prof-heder w-100 py-5 pt-5 text-center wow">
+        <div class="display-1 wht fw-bolder position-relative"><span class="opacity-25">ABOUT-ME</span>
+          <div class="display-3 fw-bolder position-absolute translate-middle start-50 top-50">About <span
+              class="color">ME</span></div>
+        </div>
+      </div>
+      <div class="prof-body row w-75 mx-auto mt-4 wow">
+        <div class="col p-table">
+          <h3 class="wht d-inline">PERSONAL INFOS</h3>
+          <table class="table table-responsive h-100 fw-bold">
+            <tr>
+              <td><span style="color: gray;">First Name:</span><span class="wht">Karaka</span></td>
+              <td><span style="color: gray;">Last Name:</span><span class="wht">Harshitha</span></td>
+            </tr>
+            <tr>
+              <td><span style="color: gray;">Age:</span><span class="wht"> 21 Years</span></td>
+              <td><span style="color: gray;">Nationality:</span><span class="wht"> Indian</span></td>
+            </tr>
+            <tr>
+              <td><span style="color: gray;">Intern:</span><span class="text-success"> Available soon</span></td>
+              <td><span style="color: gray;">Address:</span><span class="wht"> Vasavi Nagar, Guntur, Andhra Pradesh</span></td>
+            </tr>
+            <tr>
+              <td><span style="color: gray;">Phone:</span><span class="wht"> +9196300977375</span></td>
+              <td><span style="color: gray;">Email:</span><span class="wht"> 2100031364cseh@gmail.com</span></td>
+            </tr>
+            <tr>
+              <td><span style="color: gray;">calls:</span><span class="wht"> soon</span></td>
+              <td><span style="color: gray;">Languages:</span><span class="wht"> English,Hindi,Telugu</span></td>
+            </tr>
+          </table>
+          <button class="button px-4 rounded-pill bg-transparent" data-bs-toggle="modal" id="downloadBtn"
+            data-bs-target="#exampleModal"><span class="b-span wht">DOWNLOAD CV<i
+                class="fas fa-download p-2 rounded-circle"></i></span></button>
+                <script>
+                  document.getElementById('downloadBtn').addEventListener('click', function () {
+                    // Create an anchor tag dynamically
+                    const link = document.createElement('a');
+                    link.href = './images/2100031364-Harshitha.pdf'; // Path to your file
+                    link.download = 'CV.pdf'; // Set the file name for download
+                
+                    // Programmatically click the link to start the download
+                    link.click();
+                  });
+                </script>
+        </div>
+        
+        
+        <div class="col p-table">
+          <div class="admire-row h-50 w-100 d-flex justify-content-around gap-3 mt-3">
+            <div class="ad-box h-100 w-50 p-4 border border-dark">
+              <h1 class="color display-3 fw-bolder"><1</h1>
+              <h6 class="wht">-YEARS OF <br> EXPERIENCE</h6>
+            </div>
+            <div class="ad-box h-100 w-50 p-4 border border-dark">
+              <h1 class="color display-3 fw-bolder">10+</h1>
+              <h6 class="wht">-COMPLETED <br> PROJECTS</h6>
+            </div>
+          </div>
+          <div class="admire-row h-50 w-100 d-flex justify-content-around gap-3 mt-3">
+            <div class="ad-box h-100 w-50 p-4 border border-dark">
+              <h1 class="color display-3 fw-bolder">3+</h1>
+              <h6 class="wht">- HAPPY <br> CUSTOMERS</h6>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <h1 class="wht text-center mt-5 wow">MY SKILLS</h1>
+      <div class="chars m-auto w-75 d-flex justify-content-around mt-5 flex-column flex-md-row wow">
+        <div class="frame color border border-dark">
+          <div>
+            <div class="headline wht">
+              <div>Front-end</div>
+            </div>
+            <div class="circle-big">
+              <div class="text wht">
+                80%<div class="fs-6 wht">html</div>
+              </div>
+              <svg>
+                <circle class="bg" cx="57" cy="57" r="52"></circle>
+                <circle class="progress" cx="57" cy="57" r="52"></circle>
+              </svg>
+            </div>
+            <div class="circles-small">
+              <div class="circle-small">
+                <div class="text wht">60%<br /><span class="fs-6 wht">css</span></div>
+                <svg>
+                  <circle class="bg" cx="40" cy="40" r="37"></circle>
+                  <circle class="progress one" cx="40" cy="40" r="37"></circle>
+                </svg>
+              </div>
+              <div class="circle-small">
+                <div class="text wht">50%<br /><span class="fs-6 wht">Jquery</span>
+                </div>
+                <svg>
+                  <circle class="bg" cx="40" cy="40" r="37"></circle>
+                  <circle class="progress two" cx="40" cy="40" r="37"></circle>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame color border border-dark wht">
+          <div>
+            <div class="headline">
+              <div class="wht">Back-End</div>
+            </div>
+            <div class="circle-big">
+              <div class="text wht">
+                90%<div class="fs-6 wht">JS</div>
+              </div>
+              <svg>
+                <circle class="bg" cx="57" cy="57" r="52"></circle>
+                <circle class="progress" cx="57" cy="57" r="52"></circle>
+              </svg>
+            </div>
+            <div class="circles-small">
+              <div class="circle-small">
+                <div class="text wht">68%<br /><span class="fs-6 wht">Node</span></div>
+                <svg>
+                  <circle class="bg" cx="40" cy="40" r="37"></circle>
+                  <circle class="progress one" cx="40" cy="40" r="37"></circle>
+                </svg>
+              </div>
+              <div class="circle-small">
+                <div class="text wht">40%<br /><span class="fs-6 wht">React</span>
+                </div>
+                <svg>
+                  <circle class="bg" cx="40" cy="40" r="37"></circle>
+                  <circle class="progress two" cx="40" cy="40" r="37"></circle>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="wht text-center mt-5 wow">EXPERIENCE & EDUCATION</h1>
+      <div class="lists d-flex w-75 m-auto flex-column flex-md-row wow">
+        <ol class=" res-ol list-group list-group-numbered m-list wht">
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold color">WEB-DEVELOPER</div>
+              <span style="color: gray;">
+                <br>
+                University Club Website
+                Created a website for a university club, including user registration, login, event listings, and past event archives.
+                <br>
+                Smart India Hackathon Participant
+                Developed an innovative solution for a real-world problem statement in a national-level hackathon.</span>
+            </div>
+            <span class="badge text-bg-dark rounded-pill">2022-present</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold color">WEB-DESIGNER</div>
+              <span style="color: gray;">Chomp (Food Delivery App, Swiggy Clone)
+                Developed a full-fledged food delivery app with features similar to Swiggy using React and JavaScript.</span>
+            </div>
+            <span class="badge text-bg-dark rounded-pill">2021-past</span>
+          </li>
+          
+        </ol>
+        <ol class=" res-ol list-group list-group-numbered m-list wht mb-5 mb-md-0">
+          
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold color">BECHELOR</div>
+              <span style="color: gray;">🎓 B.Tech in Computer Science & Engineering (Cloud & Edge Computing)
+                KL University, Guntur (2021 – Present)</span>
+            </div>
+            
+            <span class="badge text-bg-dark rounded-pill">2018-2023</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold color">CLOUD ENTHUSIAST</div>
+              <span style="color: gray;">Learned about IT infrastructure, cloud services, and operations management.</span>
+            </div>
+            
+            <span class="badge text-bg-dark rounded-pill">2018-2023</span>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="page tab-pane fade  overflow-scroll" id="nav-port" role="tabpanel" aria-labelledby="nav-port-tab">
+      <div class="prof-heder w-100 py-5 pt-5 text-center">
+        <div class="display-1 wht fw-bolder position-relative"><span class="opacity-25 d-none d-md-block"
+            style="font-size: 90px;">WORKS</span>
+          <div class="display-3 fw-bolder position-absolute translate-middle start-50 top-50">MY<span
+              class="color">PORTFOLIO</span></div>
+        </div>
+      </div>
+      <div class="my-port tabs m-auto">
+        <ul id="tabs-nav" class="port-list d-flex gap-4  justify-content-center wht">
+          <li class="wht"><a href="#tab1" class="text-decoration-none fw-bolder text-dark-emphasis">ALL</a></li>
+          <li><a href="#tab2" class="text-decoration-none fw-bolder  text-dark-emphasis">PORTFOLIO</a></li>
+          <li><a href="#tab3" class="text-decoration-none fw-bolder  text-dark-emphasis">ADMIN</a></li>
+          <li><a href="#tab4" class="text-decoration-none fw-bolder  text-dark-emphasis">MICRO</a></li>
+        </ul> <!-- END tabs-nav -->
+        <div id="tabs-content">
+          <div id="tab1" class="tab-c wht row gap-4 justify-content-center w-100">
+            <div
+              class="col-12 rounded col-sm-12 col-xs-12 col-md-5 col-lg-4 col-xl-3 p-0 position-relative overflow-hidden"
+              data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="https://images04.nicepage.com/feature/461183/website-blog.jpg" alt="" class="img-fluid h-100 w-100">
+              <div
+                class="pro-det h-100 w-100 back position-absolute d-flex justify-content-center align-items-center fw-bolder">
+                Blogging Website
+              </div>
+            </div>
+            <div
+              class="col-12 rounded col-sm-12 col-xs-12 col-md-5 col-lg-4 col-xl-3 p-0 position-relative overflow-hidden"
+              data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="https://en.unav.edu/documents/5463875/30512777/management-lab.png/bc789fc5-65ed-8241-a38b-3db8f760868a?t=1732702919025" alt=""
+                class="img-fluid h-100 w-100">
+              <div
+                class="pro-det h-100 w-100 back position-absolute d-flex justify-content-center align-items-center fw-bolder">
+                University Club Management
+              </div>
+            </div>
+            <div
+              class="col-12 rounded col-sm-12 col-xs-12 col-md-5 col-lg-4 col-xl-3 p-0 position-relative overflow-hidden"
+              data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img
+                src="https://cdn.wedevs.com/uploads/2021/04/Best-project-management-software-for-web-designers.png"
+                alt="" class="img-fluid h-100 w-100">
+              <div
+                class="pro-det h-100 w-100 back position-absolute d-flex justify-content-center align-items-center fw-bolder">
+                Project Management
+              </div>
+            </div>
+            <div
+              class="col-12 rounded col-sm-12 col-xs-12 col-md-5 col-lg-4 col-xl-3 p-0 position-relative overflow-hidden"
+              data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="" class="img-fluid h-100 w-100">
+              <div
+                class="pro-det h-100 w-100 back position-absolute d-flex justify-content-center align-items-center fw-bolder">
+                Weather App
+              </div>
+            </div>
+            <div
+              class="col-12 rounded col-sm-12 col-xs-12 col-md-5 col-lg-4 col-xl-3 p-0 position-relative overflow-hidden"
+              data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="https://static.vecteezy.com/system/resources/previews/002/159/432/non_2x/language-translation-app-free-vector.jpg" alt=""
+                class="img-fluid h-100 w-100">
+              <div
+                class="pro-det h-100 w-100 back position-absolute d-flex justify-content-center align-items-center fw-bolder">
+                Language Translation Serverless App
+              </div>
+            </div>
+            <!-- modall -->
+            <div class="modal modal-lg fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header bg-dark color">
+                    <h1 class="modal-title fs-1 text-center m-auto" id="exampleModalLabel">MY PROJECTS</h1>
+                    <button type="button" class="btn-close text-light" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body bg-dark wht">
+                    <div class="m-body-cont">
+                      <div class="m-b-specifications w-100 h-25  d-flex justify-content-between">
+                        <div class="mbs h-100 w-50  fw-bold py-1">PROJECT: <span class="fw-bolder">WEBSITE</span>
+                          <br>Client: <span class="fw-bolder">GitHub</span>
+                        </div>
+                        <div class="mbs h-100 w-50  fw-bold py-1">Language: <span
+                            class="fw-bolder">HTML,CSS,BOOTSTRAP,JavaScript</span> <br>Preview: <span class="fw-bolder"><a
+                              href="https://github.com/Harshithakaraka?tab=repositories" class="color">www.github.com</a></span></div>
+                      </div>
+                      <div class="m-b-pic w-100  d-flex justify-content-center align-items-center p-4">
+                        <img src="https://cdn.pixabay.com/photo/2016/03/12/23/18/man-1253004_1280.jpg" alt=""
+                          class="h-100 w-100 img-fluid rounded">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div> <!-- END tabs-content -->
+      </div>
+    </div>
+    <div class="page tab-pane  fade overflow-scroll" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+      <div class="prof-heder w-100 py-4 pt-1 text-center mt-5 mt-md-0">
+        <div class="display-1 wht fw-bolder position-relative"><span class="opacity-25 d-none d-md-block"
+            style="font-size: 90px;letter-spacing: 20px;">CONTACT</span>
+          <div class="display-3 fw-bolder position-absolute translate-middle start-50 top-50">GET IN<span
+              class="color">TOUCH</span></div>
+        </div>
+      </div>
+      <div class="contact-body  m-auto">
+        <div class="row h-100 justify-content-center gap-3">
+          <div class="col-12 col-md-4 d-flex flex-column justify-content-around">
+            <h3 class="wht fw-bold mt-5 mt-md-4">DON`T BE SHY</h3>
+            <p class="wht">Feel free to get in touch with me. I am always open to discussing new projects, creative
+              ideas or opportunities to be part of your visions.</p>
+            <div class="contact-det w-100">
+              <div class="con-det d-flex">
+                <div class="det-icon color fs-1 d-flex justify-content-center align-items-center">
+                  <i class="fas fa-map"></i>
+                </div>
+                <div class="det-info d-flex flex-column justify-content-center gap-2 ps-4">
+                  <span style="color: gray;" class="fw-bolder">ADDRESS POINT</span>
+                  <span class="wht fw-bold">Vasavi Nagar,Guntur,Andhra Pradesh,India,522001</span>
+                </div>
+              </div>
+              <div class="con-det d-flex">
+                <div class="det-icon color fs-1 d-flex justify-content-center align-items-center">
+                  <i class="fas fa-envelope-open"></i>
+                </div>
+                <div class="det-info d-flex flex-column justify-content-center gap-2 ps-4">
+                  <span style="color: gray;" class="fw-bolder">MAIL ME</span>
+                  <span class="wht fw-bold">karakaharshitha@gmail.com</span>
+                </div>
+              </div>
+              <div class="con-det d-flex">
+                <div class="det-icon color fs-1 d-flex justify-content-center align-items-center">
+                  <i class="fas fa-phone-square-alt"></i>
+                </div>
+                <div class="det-info d-flex flex-column justify-content-center gap-2 ps-4">
+                  <span style="color: gray;" class="fw-bolder">CALL ME</span>
+                  <span class="wht fw-bold">+91 6300977375</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact-icons d-flex justify-content-center gap-2">
+              <i class="fab fa-facebook rounded-circle d-flex align-items-center justify-content-center"></i>
+              <i class="fab fa-twitter rounded-circle d-flex align-items-center justify-content-center"></i>
+              <i class="fab fa-youtube rounded-circle d-flex align-items-center justify-content-center"></i>
+              <i class="fas fa-basketball-ball rounded-circle d-flex justify-content-center align-items-center"></i>
+            </div>
+          </div>
+          <div class="formm col-12 col-md-7 col-md-5 d-flex flex-column align-items-center justify-content-around">
+            <input type="text" class="form-control-lg border-0 rounded-pill w-75 " placeholder="YOUR NAME">
+            <input type="text" class="form-control-lg border-0 rounded-pill w-75" placeholder="YOUR E-MAIL">
+            <input type="text" class="form-control-lg border-0 rounded-pill w-75" placeholder="YOUR SUBJECT">
+            <div class="form-floating  w-75">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 200px"></textarea>
+              <label for="floatingTextarea2" style="color: gray;">Comments</label>
+            </div>
+            <button class="button px-4 rounded-pill bg-transparent mb-5 mb-md-0" data-bs-toggle="modal"
+              data-bs-target="#exampleModal"><span class="b-span wht">SEND ME<i
+                  class="far fa-paper-plane rounded-circle"></i></span></button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="buttons nav nav-tabs d-flex gap-2 position-absolute" style="border-bottom: 0px;">
+    <button class="buton active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+      role="tab" aria-controls="nav-home" aria-selected="true">
+      <div class="icon">
+        <i class="fas fa-home"></i>
+      </div>
+      <div class="text">
+        home
+      </div>
+    </button>
+    <button class="buton" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+      role="tab" aria-controls="nav-profile" aria-selected="false">
+      <div class="icon">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="text">
+        About
+      </div>
+    </button>
+    <button class="buton" data-bs-toggle="tab" data-bs-target="#nav-port" type="button" role="tab"
+      aria-controls="nav-port">
+      <div class="icon">
+        <i class="fas fa-suitcase"></i>
+      </div>
+      <div class="text pe-3">
+        Portfolio
+      </div>
+    </button>
+    <button class="buton" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab"
+      aria-controls="nav-contact">
+      <div class="icon">
+        <i class="far fa-envelope-open"></i>
+      </div>
+      <div class="text pe-3">
+        Contact
+      </div>
+    </button>
+    
+  </div>
+  <div class="theme-button position-absolute rounded-circle d-flex justify-content-center align-items-center wht">
+    <i class="fas fa-adjust"></i>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
